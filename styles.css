@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ff9898;
+}
+
+h1 {
+    color: #333;
+}
+
+#task-form {
+    margin: 20px 0;
+}
+
+#task-input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+}
+
+#add-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #229a22;
+}
